@@ -6,14 +6,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Run Buddy</title>
-    <!-- Add this to the page and see what happens! -->
 </head>
 
 <body>
-    <!-- navigation -->
+    <!-- header -->
     <header>
         <h1>RUN BUDDY</h1>
-
         <nav>
             <!-- Unordered list element -->
             <ul>
@@ -34,6 +32,7 @@
             </ul>
         </nav>
     </header>
+    <!-- end header -->
 
     <!-- hero/jumbotron -->
     <section class="hero">
@@ -91,6 +90,7 @@
             </p>
         </div>
     </section>
+    <!-- end what we do -->
 
     <!-- "what you do" -->
     <section id="what-you-do" class="steps">
@@ -131,7 +131,6 @@
                 </div>
             </div>
         </div>
-
         <div class="step">
             <h3>Step 4.</h3>
             <div class="step-info">
@@ -141,98 +140,102 @@
                 <div class="step-text">
                     <h4>See Results.</h4>
                     <p>Bi-weekly checkins with your trainer will keep you focused</p>
-
                 </div>
             </div>
         </div>
-
-
-        </div>
     </section>
+    <!-- end what you do -->
 
     <!-- "meet the trainers" section -->
-
-
-    <section id="your-trainers" class="trainers">
+    <section id="your-trainers">
         <div class="flex-row">>
-            <h2 class="section-title primary-border">Meet The Trainers</h2>
-            <article class="trainer">
-                <img src="./assets/images/trainer-1.jpg" alt="Arron Stephens in his workout clothes, ready to pump iron" />
-                <div class="trainer-bio text-left">
-                    <h3>Arron Stephens</h3>
-                    <h4>Speed / Strength</h4>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur dolore dolores debitis adipisci vero recusandae tenetur, fugiat dignissimos fuga corrupti omnis voluptatibus illum assumenda, sint accusantium velit possimus voluptas? Libero.
-                    </p>
-                </div>
-            </article>
-        </div>
-        <!-- second trainer bio -->
-        <article class="trainer">
-            <div class="trainer-bio text-right">
-                <h3>Joanna Gill</h3>
-                <h4>Endurance</h4>
-                <p>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi neque animi quo cupiditate commodi saepe culpa sed itaque velit maiores optio dolorem excepturi aperiam dolores, voluptatibus suscipit amet quis repellat!
-                </p>
-            </div>
-            <img src="./assets/images/trainer-2.jpg" alt="Joanna Gill cooling off after a workout" />
-        </article>
+            <div>
+                <h2 class="section-title primary-border">Meet The Trainers</h2>
+                <div class="trainers">
 
-        <!-- third trainer bio -->
-        <article class="trainer">
-            <img src="./assets/images/trainer-3.jpg" alt="Harry Smith wearing a headband and lifting comically small pink weights" />
-            <div class="trainer-bio text-left">
-                <h3>Harry "the Headband" Smith</h3>
-                <h4>Strength</h4>
-                <p>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi neque animi quo cupiditate commodi saepe culpa sed itaque velit maiores optio dolorem excepturi aperiam dolores, voluptatibus suscipit amet quis repellat!
-                </p>
-            </div>
-        </article>
-        <!-- "reach out" section -->
-        <section id="reach-out" class="contact">
-            <h2 class="section-title secondary-border">Reach Out</h2>
-            <div class="contact-info">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d12182.30520634488!2d-74.0652613!3d40.2407219!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1561060983193!5m2!1sen!2sus">
-                    </iframe>
-                <div class="contact-form">
-                    <h3>Contact Us</h3>
-                    <form>
-                        <label for="contact-name">Your Name</label>
-                        <input type="text" id="contact-name" placeholder="Your Name" />
+                    <!-- first trainer bio -->
+                    <article class="trainer">
+                        <img src="./assets/images/trainer-1.jpg" alt="Arron Stephens in his workout clothes, ready to pump iron" />
+                        <div class="trainer-bio">
+                            <h3>Arron Stephens</h3>
+                            <h4>Speed / Strength</h4>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur dolore dolores debitis adipisci vero recusandae tenetur, fugiat dignissimos fuga corrupti omnis voluptatibus illum assumenda, sint accusantium velit possimus voluptas? Libero.
+                            </p>
+                        </div>
+                    </article>
 
-                        <label for="contact-message">Message</label>
-                        <textarea id="contact-message" placeholder="Message"></textarea>
+                    <!-- second trainer bio -->
+                    <article class="trainer">
+                        <img src="./assets/images/trainer-2.jpg" alt="Joanna Gill cooling off after a workout" />
+                        <div class="trainer-bio">
+                            <h3>Joanna Gill</h3>
+                            <h4>Endurance</h4>
+                            <p>
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi neque animi quo cupiditate commodi saepe culpa sed itaque velit maiores optio dolorem excepturi aperiam dolores, voluptatibus suscipit amet quis repellat!
+                            </p>
+                        </div>
+                    </article>
 
-                        <button type="submit">Submit</button>
-                    </form>
-                </div>
-                <div class="contact-info">
-                    <h2>Run Buddy</h2>
-                    <p>
-                        Any questions or concerns before signing up?<br /> Let us know and we'll be happy to talk to you!
-                    </p>
-
-                    <address>
-                        55 Main Street <br/>
-                        Some Town, Ca <br/>
-                        12345<br />
-                        P: 555.RUN.BUDZ (555.786.2839)<br/>
-                        E: <a href="mailto:info@runbuddy.io">info@runbuddy.io</a>
-                    </address>
+                    <!-- third trainer bio -->
+                    <article class="trainer">
+                        <img src="./assets/images/trainer-3.jpg" alt="Harry Smith wearing a headband and lifting comically small pink weights" />
+                        <div class="trainer-bio">
+                            <h3>Harry "the Headband" Smith</h3>
+                            <h4>Strength</h4>
+                            <p>
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi neque animi quo cupiditate commodi saepe culpa sed itaque velit maiores optio dolorem excepturi aperiam dolores, voluptatibus suscipit amet quis repellat!
+                            </p>
+                        </div>
+                    </article>
                 </div>
             </div>
-        </section>
     </section>
+    <!-- end trainers section -->
 
+    <!-- "reach out" section -->
+    <section id="reach-out" class="contact">
+        <h2 class="section-title secondary-border">Reach Out</h2>
+        <div class="contact-info">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d12182.30520634488!2d-74.0652613!3d40.2407219!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1561060983193!5m2!1sen!2sus">
+                    </iframe>
+            <div class="contact-form">
+                <h3>Contact Us</h3>
+                <form>
+                    <label for="contact-name">Your Name</label>
+                    <input type="text" id="contact-name" placeholder="Your Name" />
 
+                    <label for="contact-message">Message</label>
+                    <textarea id="contact-message" placeholder="Message"></textarea>
+
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+            <div class="contact-info">
+                <h2>Run Buddy</h2>
+                <p>
+                    Any questions or concerns before signing up?<br /> Let us know and we'll be happy to talk to you!
+                </p>
+                <!-- address -->
+                <address>
+                    55 Main Street <br/>
+                    Some Town, Ca <br/>
+                    12345<br />
+                    P: 555.RUN.BUDZ (555.786.2839)<br/>
+                    E: <a href="mailto:info@runbuddy.io">info@runbuddy.io</a>
+                </address>
+            </div>
+        </div>
+    </section>
 </body>
+
+<!-- Footer -->
 <footer>
     <h2>&#10084;&#65039; Made with love by Run Buddy.</h2>
     <div>
         <a href="privacy-policy.html">Read Our Privacy Policy</a><br /> &copy; 2019 Run Buddy, Inc.
     </div>
 </footer>
+<!-- end footer -->
 
 </html>
